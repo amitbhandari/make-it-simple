@@ -1,0 +1,117 @@
+@import "https://fonts.googleapis.com/css?family=Norican";
+@import "https://fonts.googleapis.com/css?family=Oswald";
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: arial;
+  overflow-x: hidden;
+}
+
+
+header{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  background-image:url("../img/header-bg1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 1;
+}
+
+.header-caption{
+margin-top: 200px;
+}
+
+.My-Expertise .head-line h2{
+  padding-top: 100px;
+  font-weight: 600;
+}
+
+.My-Expertise .head-line h2 h3{
+  padding-bottom: 100px;
+  font-weight: 600;
+}
+
+.experties{
+  padding: 100px 0px;
+}
+.experties h2{
+  padding: 20px 0px;
+  font-weight: 600;
+}
+
+.experties p{
+  font-size: 16px;
+  margin-top:30px;
+  font-weight: 700;
+  color: #93a4aa;
+
+}
+
+.Personal-Projects{
+  background-color: #e4e4e4;
+}
+.Personal-Projects .head-line h2{
+  padding-top: 100px;
+  font-weight: 600;
+}
+
+.projects{
+  padding: 100px 0px;
+}
+
+.projects p{
+  font-size: 16px;
+  margin-top:30px;
+  font-weight: 700;
+  color: #93a4aa;
+}
+
+.want-work{
+  width: 100%;
+  background-color: #f7d957;
+}
+.work{
+  padding: 100px 0px;
+}
+.want-work h2{
+
+  font-weight: 600;
+}
+
+.want-work p{
+  font-size: 20px;
+  margin-top:30px;
+  font-weight: 700;
+
+}
+
+.btn{
+  border: 2px solid transparent !important;
+}
+.btn-default{
+  background-color: transparent !important;
+  border-color: #232324 !important;
+
+}
+.btn-lg, .btn-group-lg > .btn {
+    padding: 10px 50px !important;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 50px !important;
+}
+
+.btn-default:hover{
+  background-color: white !important;
+  border: 2px solid transparent !important;
+}
+
+.footer h4{
+  padding-top: 40px;
+}
+
+.footer-contain {
+  padding: 50px;
+}
